@@ -3,7 +3,6 @@ const formatDate = (date: number) => {
 }
 
 function Comment(props: any) {
-  console.log(props)
   return (
     <div className="Comment">
       <div className="Comment-date">{formatDate(props.date)}</div>
